@@ -5,7 +5,13 @@ Main header border color: #cccccc
 Footer background color: #666666
 Main content background color: #ffffff
 Main content border color: #dddddd 
+*/
 
+body{
+    background-image: url("../images/darkbkg.png");
+}
+
+/*
 
 * {
     box-sizing: border-box;
