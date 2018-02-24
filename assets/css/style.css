@@ -7,9 +7,65 @@ Main content background color: #ffffff
 Main content border color: #dddddd 
 */
 
-body{
-    background-image: url("../images/darkbkg.png");
+.navbar-default {
+    background-image: none;
+    background-color: #ffffff;
 }
+
+header {
+    width: 960px;
+
+}
+
+.container {
+    width 960px;
+}
+
+body{
+    
+    background-image: url("../images/regal.png");
+}
+
+.container-fluid {
+    width: 960px;
+    background-color: #ffffff;
+
+}
+
+
+body h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+}
+
+.navbar-brand  {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 30px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: auto;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    
+}
+.well, .well-sm {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+h2 {
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #4aaaa5;
+}
+
+
+
 
 /*
 
