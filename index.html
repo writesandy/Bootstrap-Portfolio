@@ -17,18 +17,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Sandra</a>
-              </div>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="nav active"><a href="#">About</a></li>
-                <li class="nav"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav"><a href="contact.html">Contact</a></li>
-              </ul>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <div class="brand">
+                                <h1>Sandra</h1>
+                            </div>
+                        </div>
+                        <div class = "col-md-8">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav active"><a href="#">About</a></li>
+                                <li class="nav"><a href="portfolio.html">Portfolio</a></li>
+                                <li class="nav"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
           </nav>
-
 </head>
 <body> 
         <div class = "container">
@@ -38,13 +45,15 @@
                             <h2>About Me</h2>
                             <hr/>
                                 <img src="./assets/images/Sandra.jpg" alt="Sandra" class="pull-left img-thumbnail" >
-                                <p>If life is a box of chocolates, then I like mine to be full of surprises. Every texture, flavor and assortment of deliciousness should be packed into that box. Life and chocolate are very much like business. Filled daily with all kinds of things to be tested, enjoyed and sometimes improved upon.
-                                </p><br>
-                                <p>The favorite part of my job as a Salesforce Administrator/Developer is working through all the business problems and finding the best, most delicious solution. The one that saves you time and gives you the opportunity to focus on delighting your customers. If you’re looking for support utilizing out of the box solutions or need a custom programmatic design. I hope you will give me a call.
-                                </p><br>
-                                <p>Transformation trailblazer hub koa PSE transformation Cloud ohana hub Codey, Sales cloud of compass. Trusted transformation trust, things blaze concierge Cloud techforce wearables Salesforce Cloudy. Einstein company lightning Cloudy customer town command, culture company trust culture.
-                                    Business methods blaze hub lightning trusted B2C aloha. SaaSy center culture Einstein culture compass techforce compass. Trail wave and of SaaSy, wave Cloud ohana SaaSy customer town customer. Techforce blaze internet culture Trailhead blaze blaze SaaSy internet PSE, hall vision V2MOM B2C. Wave SaaSy compass B2C Chatter trail ohana of Codey, services org62 org62 Cloud cloud.
-                                </p>
+                                <div id="about-text">
+                                    <p>If life is a box of chocolates, then I like mine to be full of surprises. Every texture, flavor and assortment of deliciousness should be packed into that box. Life and chocolate are very much like business. Filled daily with all kinds of things to be tested, enjoyed and sometimes improved upon.
+                                    </p><br>
+                                    <p>The favorite part of my job as a Salesforce Administrator/Developer is working through all the business problems and finding the best, most delicious solution. The one that saves you time and gives you the opportunity to focus on delighting your customers. If you’re looking for support utilizing out of the box solutions or need a custom programmatic design. I hope you will give me a call.
+                                    </p><br>
+                                    <p>Transformation trailblazer hub koa PSE transformation Cloud ohana hub Codey, Sales cloud of compass. Trusted transformation trust, things blaze concierge Cloud techforce wearables Salesforce Cloudy. Einstein company lightning Cloudy customer town command, culture company trust culture.
+                                        Business methods blaze hub lightning trusted B2C aloha. SaaSy center culture Einstein culture compass techforce compass. Trail wave and of SaaSy, wave Cloud ohana SaaSy customer town customer. Techforce blaze internet culture Trailhead blaze blaze SaaSy internet PSE, hall vision V2MOM B2C. Wave SaaSy compass B2C Chatter trail ohana of Codey, services org62 org62 Cloud cloud.
+                                    </p>
+                                </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
@@ -60,8 +69,11 @@
                 </div>
                 </div>
         </div>
-    <footer class="container-fluid">
+        
+    <footer class="footer">
+        <div class="container">
                     <p>&copy 2018 Sandra Peterson</p>
+        </div>
     </footer>
 </body>
 </html>
